@@ -1,0 +1,42 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+<!-- course-list.component.html -->
+<body>
+  <section *ngIf="projectGroup.length > 0 else loadingg">
+    <div *ngFor="let ageGroup of projectGroup">
+      <h2 class="text-center">{{ ageGroup.projecttype }}</h2>
+      <div class="courses-container container">
+        <div class="row">
+          <div class="col-md-4 mt-1" *ngFor="let course of ageGroup.courses">
+            <div class="course-card">
+              <img [src]="course.image" [alt]="course.title">
+              <h3>{{ course.title }}</h3>
+              <p>{{ course.description }}</p>
+              <div class="btn-container text-center">
+                <a [href]="course.link" class="btn btn-primary" role="button">
+                  {{ course.buttons[0].text }}
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+</body>
+
+<ng-template #loadingg>
+  <div class="d-flex justify-content-center align-items-center min-vh-100" style="background-color: #f8f9fa;">
+    <div class="text-center">
+      <div class="spinner-border text-primary" role="status" style="width: 5rem; height: 5rem;">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <p class="mt-3 text-muted" style="font-family: 'Arial', sans-serif; font-size: 1.2rem; transition: opacity 0.5s; opacity: 0;">
+        Loading, please wait...
+      </p>
+    </div>
+  </div>
+</ng-template>

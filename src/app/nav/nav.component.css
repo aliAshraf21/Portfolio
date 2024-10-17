@@ -1,0 +1,94 @@
+/* Modern navbar styles */
+.navbar {
+    background: rgba(255, 255, 255, 0.377);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background 0.3s ease;
+    display: flex;
+    justify-content: space-between; /* توزيع العناصر بالتساوي */
+    align-items: center; /* محاذاة العناصر رأسياً */
+    padding: 0 2rem; /* إضافة حواف على الجوانب */
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #333;
+    transition: color 0.3s ease;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: auto;
+}
+
+.navbar-brand:hover {
+    color: #d9534f;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center; /* يجعل الروابط في المنتصف */
+    flex: 1; /* لتوزيع العناصر على المساحة المتاحة */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #d9534f;
+}
+
+.nav-item.active .nav-link {
+    color: #d9534f !important;
+}
+
+/* Sticky navbar background change on scroll */
+.navbar.scrolled {
+    background-color: #f8f9fa !important;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-toggler-icon {
+    background-color: #333;
+    border-radius: 2px;
+    width: 24px;
+    height: 2px;
+    position: relative;
+}
+
+.navbar-toggler-icon:before,
+.navbar-toggler-icon:after {
+    content: '';
+    background-color: #333;
+    width: 24px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+}
+
+.navbar-toggler-icon:before {
+    top: -8px;
+}
+
+.navbar-toggler-icon:after {
+    top: 8px;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}

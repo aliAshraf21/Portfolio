@@ -1,0 +1,156 @@
+{
+    "ageGroups": [
+      {
+        "projecttype": "8-10",
+        "courses": [
+          {
+            "title": "Introduction to Scratch",
+            "description": "A fun way for kids to learn programming by creating interactive stories and games.",
+            "image": "../../assets/images/AGE1/c1.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Python for Kids",
+            "description": "Learn the basics of programming using Python, focusing on simple projects and fun exercises.",
+            "image": "../../assets/images/AGE1/c2.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Building Simple Games",
+            "description": "Teach kids how to create simple games using programming concepts and logic.",
+            "image": "../../assets/images/AGE1/c3.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "age": "11-13",
+        "courses": [
+          {
+            "title": "Web Development for Beginners",
+            "description": "Teach kids the basics of HTML and CSS to create their own simple websites.",
+            "image": "../../assets/images/AGE2/c1.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Game Development with Unity",
+            "description": "A beginner-friendly course that introduces kids to game development using the Unity engine.",
+            "image": "../../assets/images/AGE2/c2.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Python Game Programming",
+            "description": "Learn how to create simple games using Python, focusing on game design and coding logic.",
+            "image": "../../assets/images/AGE2/c3.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "age": "14-16",
+        "courses": [
+          {
+            "title": "JavaScript for Beginners",
+            "description": "An introduction to JavaScript, teaching kids how to make web pages interactive and dynamic.",
+            "image": "../../assets/images/AGE3/c1.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Introduction to Java",
+            "description": "A foundational course in Java programming, covering object-oriented concepts and simple applications.",
+            "image": "../../assets/images/AGE3/c2.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Mobile App Development",
+            "description": "Teach kids how to create simple mobile applications using platforms like MIT App Inventor.",
+            "image": "../../assets/images/AGE3/c3.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "age": "16+",
+        "courses": [
+          {
+            "title": "Advanced Python Programming",
+            "description": "Dive deeper into Python with advanced topics, including data structures and algorithms, suitable for teens.",
+            "image": "../../assets/images/AGE4/c1.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Full Stack Web Development",
+            "description": "A comprehensive course covering both front-end and back-end development, preparing teens for web development careers.",
+            "image": "../../assets/images/AGE4/c2.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          },
+          {
+            "title": "Robotics Programming with Arduino",
+            "description": "Learn how to program and build robots using Arduino, combining hardware and software skills.",
+            "image": "../../assets/images/AGE4/c3.jpg",
+            "buttons": [
+              {
+                "text": "Learn More",
+                "type": "primary"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
